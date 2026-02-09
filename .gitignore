@@ -1,0 +1,9 @@
+# Ignore ROS2 build artifacts if you accidentally build inside the repo
+build/
+install/
+log/
+.colcon/
+
+# Ignore machine-specific files
+.vscode/
+*.user
